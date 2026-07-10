@@ -1,0 +1,87 @@
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.joker-container {
+    width: min(750px, 90%);
+    height: 90vh;
+    background: #1d1d1d;
+    border: 2px solid #555;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.joker-container h3 {
+    margin: 0;
+    font-size: 44px;
+    color: #d9dc10;
+}
+
+.joke-card {
+    width: 100%;
+    background: #101010;
+    border: 2px solid #666;
+    border-radius: 18px;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.setup {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 80%;
+    margin: 15px auto;
+    border-top: 2px dashed #555;
+}
+
+.punchline {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #7ee7d8;
+}
+
+button {
+    padding: 14px 34px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #71d0eb, #5883b5);
+    border: 1px solid #d5d5d5;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #85ccef, #5d8dc5);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: scale(0.97);
+}

@@ -1,0 +1,34 @@
+/* Heading */
+h3 {
+    text-align: center;
+    margin: 15px 0;
+    color: white;
+}
+
+/* Comment Card */
+.comment {
+    width: 300px;              /* Smaller width */
+    margin: 10px auto;         /* Less spacing */
+
+    padding: 12px;
+
+    border: 1px solid pink;
+    border-radius: 10px;
+
+    text-align: center;
+
+    color: white;
+}
+
+/* Username */
+.comment p {
+    margin-top: 8px;
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* Divider */
+hr {
+    width: 300px;
+    margin: 15px auto;
+}
